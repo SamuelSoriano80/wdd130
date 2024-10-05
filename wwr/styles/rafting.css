@@ -1,0 +1,97 @@
+:root {
+    --primary: #1B2061;
+    --secondary: #044998;
+    --accent1: #91A4C4;
+    --accent2: #FEFEFE;
+}
+
+body {
+    margin: 0;
+    font-family: "Jost", system-ui;
+    line-height: 1.6;
+}
+
+header {
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--primary);
+}
+
+header img {
+    width: 150px;
+}
+
+nav a {
+    color: var(--accent2);
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 600px;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: var(--accent2);
+    font-size: 2rem;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    background-color: var(--secondary);
+    color: var(--accent2);
+    padding: 15px;
+    max-width: 250px;
+}
+
+.hero article img {
+    width: 80px;
+    margin-left: 10px;
+    float: right;
+}
+
+section h2 {
+    font-family: "Arimo", sans-serif;
+    color: var(--accent1);
+    text-align: left;
+    padding: 20px;
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+footer {
+    background-color: var(--primary);
+    color: var(--accent2);
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a img {
+    width: 40px;
+    margin: 0 10px;
+}
