@@ -144,15 +144,127 @@ footer {
 }
 
 footer p {
-    margin: 10px 0;
+    margin: 0;
+    text-align: left;
+}
+
+footer .wireframe-link {
+    text-align: center;
+    width: 100%;
 }
 
 footer .social-media {
     display: flex;
-    gap: 20px;
+    gap: 15px;
+    justify-content: flex-end;
 }
 
 footer a img {
     width: 40px;
     margin: 0 10px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.contact-details p {
+    font-size: 1.1rem;
+    flex: 1;
+    padding: 20px;
+}
+
+.touch{
+    flex: 1;
+    padding: 20px;
+}
+
+.touch form{
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    margin-top: 20px;
+}
+
+.touch form label{
+    margin: 10px 0 5px;
+}
+
+.touch form input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.touch form textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.touch form button{
+    background-color: var(--secondary);
+    color: var(--accent2);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radio-group label {
+    font-size: 0.9rem;
+    display:inline-flex;
+    align-items: center;
+}
+
+.radio-group input {
+    display: flex;
+    align-items: center;
+}
+
+.team {
+    text-align: center;
+    padding: 40px;
+    background-color: var(--accent2);
+}
+
+.team figure {
+    display: inline-block;
+    margin: 20px;
+}
+
+.team img {
+    max-width: 150px;
+    height: auto;
+}
+
+.subscription{
+    display: inline-flex;
+    align-items:center;
+}
+
+.subscription input[type="checkbox"] {
+    margin-left: -300px;
+}
+
+button {
+    background-color: var(--primary);
+    color: var(--accent2);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary);
 }
