@@ -310,3 +310,55 @@ button:hover {
     text-align: left;
     position: relative;
 }
+
+.call-to-action {
+    background-color: var(--accent1);
+    color: var(--accent2);
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.trip-descriptions {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.trip-descriptions .trip {
+    width: 30%;
+    background-color: var(--accent1);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.trip-descriptions .trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.trips-table th, .trips-table td {
+    border: 1px solid var(--accent1);
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.trips-table th {
+    background-color: var(--primary);
+    color: var(--accent2);
+}
+
+.trips-table td {
+    background-color: var(--accent1);
+}
